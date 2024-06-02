@@ -1,0 +1,137 @@
+# /* [	<!-- */ include	<stdio.h> /* 	\
+	#`{{coding=utf-8\
+"true" if 0 != 0 and	q != """0"	;	`	\
+	\
+if [ -n "$ZSH_VERSION" ]; then		 		 	\
+	\
+    echo exec	echo I\'m a zsh script.; \
+	\
+elif [ -n "$BASH_VERSION" ]; then		    	\
+	\
+    echo exec	echo I\'m a bash script.; \
+else	\
+    echo exec	echo	I\'m	a sh	script.;		\
+fi`;	#!;#\
+BEGIN{print"I'm a ", 0 ? "Ruby"	:"Perl",	" program.\n";	exit; }  
+	#\
+%q~     		 	  	
+	
+set =dummy 0; puts [list "I'm"	"a"	"tcl"	"script."]; exit	  
+	
+all: ; @echo "I'm a Makefile."		  	 	\
+	#*/
+/*: */ enum {a, b}; 			  		\
+	\
+static int c99(void) {  			    
+	
+ #ifndef __cplusplus /* bah */		    	
+	
+unused1: if ((enum {b, a})0) 		   		\
+	(void)0;
+ #endif    		  	 	
+	
+unused2:    return a;	     \
+}	\
+static int trigraphs(void) {  			    \
+	\
+    return sizeof	"??!"	==	2;  	 \
+}	\
+char X;    		 				\
+	\
+int main(void) {   		  			\
+	\
+    struct X	{		  	 \
+	\
+     	char	a[2];    	\
+	};\
+    if (sizeof(X)	!=	1) {		 	\
+	\
+printf("I'm a C++ program (trigraphs %sabled).\n",	 			 \
+	\
+     trigraphs()	? "en"	: "dis");\
+	\
+}else if (1//**/2
+
+
+)unused3 : { ; \
+        printf("I'm a C program (C%s, trigraphs %sabled).\n", \
+               c99() ? "89 with // comments" : "99", \
+               trigraphs() ? "en" : "dis"); \
+    } else { \
+        printf("I'm a C program (C89, trigraphs %sabled).\n", \
+               trigraphs() ? "en" : "dis"); \
+    } \
+    return 0; \
+} /*
+ # \
+\begin{code}
+import Prelude hiding ((:)); import Data.List (intercalate); import Language.Haskell.TH; import Data.String; default (S, String, Integer, Double); data S = S; instance Eq S where { _ == _ = False }; instance IsString S where { fromString = const S }; ifThenElse c t e = case c of True -> t; False -> e
+cPP = False; {-
+#define cPP True
+-} main :: IO ()
+main = putStr ("I'm a Literate Haskell program" ++ bonus ++ ".\n") where
+  _ = (); bonus | null details = "" | otherwise = " (" ++ details ++ ")"
+  details = intercalate ", " [ name | (True, name) <- extensions ] :: String
+  extensions =
+    (bangPatterns,              "BangPatterns"             ) :
+    (templateHaskell,           "TemplateHaskell"          ) :
+    (rebindableSyntax,          "RebindableSyntax"         ) :
+    (magicHash,                 "MagicHash"                ) :
+    (overloadedStrings,         "OverloadedStrings"        ) :
+    (noMonomorphismRestriction, "NoMonomorphismRestriction") :
+    (scopedTypeVariables,       "ScopedTypeVariables"      ) :
+    (cPP,                       "CPP"                      ) :
+    (unicodeSyntax,             "UnicodeSyntax"            ) :
+    (negativeLiterals,          "NegativeLiterals"         ) :
+    (binaryLiterals,            "BinaryLiterals"           ) :
+    (numDecimals,               "NumDecimals"              ) : []
+  (!) = (!!)
+  bangPatterns = [True] ! 0 where foo !bar = False
+  templateHaskell = thc $(return (TupE []) :: ExpQ)
+  rebindableSyntax = null (do { [()]; [()] })
+    where _ >> _ = [] :: [()]
+  magicHash = foo# () where
+    foo = ['.']; "." # _  = False; foo# _ = True
+  overloadedStrings = "" /= ""
+  noMonomorphismRestriction = show foo == "0" where
+    foo = 0
+    bar = foo :: Double
+  unicodeSyntax = let (★) = True in (*) where
+    (*) = False
+  negativeLiterals = -1 == NNa
+  binaryLiterals = let b1 = 1 in 0b1 == 1
+  numDecimals = show 0e0 == "0"
+  scopedTypeVariables = stv (0 :: Double) == "0.0"
+data{- = -} NN = NNa | NNb deriving Eq; instance Num NN where { fromInteger _ = NNa; negate _ = NNb; _ + _ = NNa; _ * _ = NNa; abs _ = NNa; signum _ = NNa }
+instance{- = -} (Num a) => Num (e -> a) where { fromInteger = const . fromInteger; negate = (.) negate; abs = (.) abs; signum = (.) signum; x + y = \e -> x e + y e; x * y = \e -> x e * y e }
+class THC a where { thc :: a -> Bool }; instance THC () where { thc _ = True }; instance THC (Q a) where { thc _ = False }; class (Show a, Num a) => STV a where
+  stv :: a -> String
+  stv = const $ show (f 0) where
+    f = id :: a -> a
+instance STV Double -- : \
+\end{code}
+
+ # \
+]>++++++++[<+++++++++>-]<+.>>++++[<++++++++++>-]<-.[-]>++++++++++ \
+[<+++++++++++>-]<-.>>++++[<++++++++>-]<.>>++++++++++[<++++++++++> \
+-]<- - -.<.>+.->>++++++++++[<+++++++++++>-]<++++.<.>>>++++++++++[ \
+<++++++++++>-]<+++++.<<<<+.->>>>- - -.<+++.- - -<++.- ->>>>>+++++ \
++++++[<+++++++++++>-]<- - -.<<<<<.<+++.>>>.<<<-.- ->>>>+.<.<.<<.> \
+++++++++++++++.[-]++++++++++""" else 0
+ # \
+from platform import * # \
+print("I'm a Python program (%s %s)." % # [-][ \
+(python_implementation(), python_version())); """--><html><head>
+<!--:--><title>I'm a HTML page</title></head><body>
+<!--:--><h1>I'm a <marquee><blink>horrible HTML</blink></marquee> page</h1>
+<!--:--><script language="JavaScript">
+<!--: # \
+setTimeout( // \
+   function () { // \
+      document.body.innerHTML = "<h1>I'm a javascript-generated HTML page</h1>"; // \
+   }, 10000); // \
+//-->
+</script><!--: \
+</body></html><!-- }} # \
+say "I'm a Perl6 program."; # """ # */
+ #define FOO ]-->~
